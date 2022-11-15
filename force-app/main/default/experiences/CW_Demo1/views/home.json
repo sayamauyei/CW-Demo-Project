@@ -24,7 +24,20 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "flowArguments" : "[{\"label\":\"umt_campaign\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_campaign)\"},{\"label\":\"umt_content\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_content)\"},{\"label\":\"umt_id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_id)\"},{\"label\":\"umt_medium\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_medium)\"},{\"label\":\"umt_referer\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_referer)\"},{\"label\":\"umt_source\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_source)\"},{\"label\":\"umt_term\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"(!umt_term)\"}]",
+        "actions" : [ {
+          "isPublic" : true,
+          "name" : "NewLead"
+        } ],
+        "label" : "Contact  us"
+      },
+      "componentName" : "forceCommunity:createRecordButton",
+      "id" : "f500cb12-d158-4ecb-af65-39dcd4d15547",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"umt_campaign\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_campaign}\"},{\"label\":\"umt_content\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_content}\"},{\"label\":\"umt_id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_id}\"},{\"label\":\"umt_medium\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_medium}\"},{\"label\":\"umt_referer\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_referer}\"},{\"label\":\"umt_source\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_source}\"},{\"label\":\"umt_term\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!umt_term}\"}]",
         "flowName" : "NewLeadFlow"
       },
       "componentName" : "forceCommunity:flowCommunity",
